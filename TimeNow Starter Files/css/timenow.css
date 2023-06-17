@@ -1,0 +1,329 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+li,
+a,
+p,
+button {
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+}
+
+header {
+  text-transform: capitalize;
+}
+
+header .side__bar {
+  display: none;
+}
+
+.nav__bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__bar .first__half {
+  width: 50%;
+}
+.nav__bar .first__half .inner__first {
+  display: flex;
+  align-items: center;
+  margin: 0 20%;
+  gap: 3rem;
+  padding-top: 3rem;
+}
+
+.nav__bar .first__half .inner__first .nav__links {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.nav__bar .inner__first,
+.nav__bar .inner__half {
+  align-items: center;
+}
+
+.nav__bar .second__half {
+  width: 50%;
+  height: 100%;
+  padding: 2rem 0;
+  background: #46ccde;
+}
+
+.nav__bar .second__half .inner__half {
+  margin: 0 20%;
+  position: relative;
+  padding-top: 2rem;
+}
+
+.nav__bar .second__half .inner__half .btn {
+  margin-top: -0.5rem;
+  position: absolute;
+  right: 0;
+}
+
+.nav__bar .menu__icon {
+  display: none;
+}
+
+.btn {
+  color: #fff;
+  background: #000;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 0.2rem;
+  padding: 0.7rem 0.6rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 3px 3px 10px #000;
+}
+
+.first__sec {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.first__sec .div__left {
+  width: 50%;
+  margin: auto 0;
+}
+
+.first__sec .div__left .div__left__inner {
+  margin-left: 20%;
+  margin-right: 2rem;
+}
+
+.first__sec .div__left h1 {
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+.first__sec .div__left p {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.first__sec .div__left button {
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+.first__sec .div__left .view__demo {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.first__sec .div__left .data__privacy p {
+  display: inline;
+}
+
+.first__sec .div__left .data__privacy a {
+  font-weight: 600;
+  color: #000;
+  text-decoration: underline;
+}
+
+.div__left .data__privacy img {
+  margin-right: 0.2rem;
+  margin-bottom: -0.3rem;
+}
+
+.first__sec .div__right {
+  width: 50%;
+}
+
+.first__sec .div__right .background {
+  background: #46ccde;
+  height: 100vh;
+}
+
+.first__sec .div__right .background .image {
+  height: 80%;
+  width: 90%;
+  position: relative;
+  padding-left: 2rem;
+  margin-right: 20%;
+}
+
+.first__sec .div__right .background .image img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform: translateY(10%);
+}
+
+/* --------Second Section -----  */
+
+.second__sec {
+  margin: 0 10%;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second__sec .div__left {
+  width: 50%;
+  margin-right: 5rem;
+}
+
+.second__sec .div__left h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.second__sec .div__left .avater__container img {
+  width: 40px;
+  margin-right: 0.7rem;
+}
+
+.second__sec .div__right {
+  width: 50%;
+  /* margin-left: 3rem; */
+}
+
+.second__sec .div__right p {
+  margin-bottom: 2rem;
+}
+
+/* --------Third Section -----  */
+
+.third__sec {
+  background: #cdf9ff;
+  padding: 2rem 0;
+}
+
+.third__sec .background {
+  margin: 0 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third__sec .div__left,
+.third__sec .div__right {
+  flex-basis: 50%;
+}
+
+.third__sec .div__left {
+  margin-right: 5rem;
+}
+.third__sec .div__left h5 {
+  color: #025862;
+  padding-top: 3rem;
+}
+
+.third__sec .div__left h1 {
+  color: #025862;
+  padding: 1rem 0;
+}
+
+.third__sec .div__left .btn {
+  margin-top: 2rem;
+}
+
+.third__sec .div__right h5 {
+  color: #025862;
+  padding-top: 1rem;
+}
+
+.third__sec .div__right h1 {
+  color: #025862;
+  padding: 1rem 0;
+}
+
+.third__sec .div__right .demo {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.third__sec .div__right .demo:hover {
+  cursor: pointer;
+}
+
+/* -----Fouth Section-----  */
+.fouth__sec {
+  background: #f5f5f5;
+}
+
+.fouth__sec .footer__container {
+  display: flex;
+  margin: 0 10%;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.fouth__sec .div__left,
+.fouth__sec .div__right {
+  flex-basis: 50%;
+}
+.fouth__sec .div__left {
+  margin-right: 5rem;
+}
+
+.fouth__sec .div__left .footer__logo {
+  width: 30px;
+  padding-bottom: 2rem;
+}
+
+.fouth__sec .div__left .footer__links {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+}
+
+.fouth__sec .div__left .footer__links h5 {
+  font-size: 1rem;
+  padding-bottom: 1.2rem;
+}
+
+.fouth__sec .div__left .footer__links li {
+  font-size: 1rem;
+  color: #000;
+  padding-bottom: 0.5rem;
+}
+
+.fouth__sec .div__right h5 {
+  font-size: 1rem;
+  padding-bottom: 1.2rem;
+  margin-top: 3rem;
+}
+
+.fouth__sec .div__right .try__now {
+  border: 1px solid grey;
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  width: fit-content;
+}
+
+.fouth__sec .div__right .try__now input {
+  border: none;
+  padding: 0.6rem 0.5rem;
+  outline: none;
+}
+
+.fouth__sec .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}

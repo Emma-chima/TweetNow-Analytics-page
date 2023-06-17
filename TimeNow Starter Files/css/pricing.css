@@ -1,0 +1,178 @@
+.nav__bar .second__half {
+  background: #fff;
+}
+
+.pricing__section {
+  margin: 0 10%;
+  margin-top: 4rem;
+}
+
+.pricing__section .flexible__plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.pricing__section .flexible__plan h1 {
+  font-size: 3rem;
+  color: #000;
+}
+
+.pricing__section .flexible__plan p {
+  padding: 1rem 0;
+}
+
+.pricing__section .flexible__plan .bill p {
+  display: inline-block;
+}
+
+.flexible__plan .bill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexible__plan .bill p {
+  font-size: 1rem;
+}
+
+.flexible__plan .bill .bill__toggle i {
+  font-size: 2rem;
+  /* height: 2px; */
+}
+
+.flexible__plan .bill .month {
+  font-weight: 600;
+}
+
+.flexible__plan .bill .month.active {
+  font-weight: 100;
+}
+
+.flexible__plan .bill .year.active {
+  font-weight: 600;
+}
+
+.flexible__plan .bill .bill__toggle .monthly {
+  display: block;
+  position: relative;
+}
+
+.flexible__plan .bill .bill__toggle .monthly.active {
+  display: none;
+}
+
+.flexible__plan .bill .bill__toggle .yearly {
+  font-weight: 600;
+  display: none;
+  /* font-size: 1rem; */
+}
+
+.flexible__plan .bill .bill__toggle .yearly.active {
+  display: block;
+}
+
+.flexible__plan .bill .month {
+  margin-right: 1rem;
+}
+
+.flexible__plan .bill .year {
+  margin-left: 1rem;
+}
+
+.pricing__plans {
+  margin: 2rem 10%;
+}
+
+.pricing__plans .box__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 1rem;
+}
+
+.pricing__plans .box__container .subscribe {
+  width: 100%;
+  background: #1d1b67;
+}
+
+hr {
+  margin-top: 0.7rem;
+}
+
+.pricing__plans .box1 {
+  border: 1px solid grey;
+  width: fit-content;
+  height: fit-content;
+  padding: 1rem;
+}
+
+.pricing__plans .box2 {
+  border: 1px solid grey;
+  width: fit-content;
+  height: fit-content;
+  padding: 1rem;
+}
+
+.pricing__plans .box3 {
+  border: 1px solid grey;
+  width: fit-content;
+  height: fit-content;
+  padding: 1rem;
+}
+
+.pricing__plans .box1 .price__tag,
+.pricing__plans .box2 .price__tag,
+.pricing__plans .box3 .price__tag {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #000;
+}
+
+.pricing__plans .box1 .price__tag .monthly__bill.active,
+.pricing__plans .box2 .price__tag .monthly__bill.active,
+.pricing__plans .box3 .price__tag .monthly__bill.active {
+  display: none;
+}
+
+.pricing__plans .box1 .price__tag .yearly__bill,
+.pricing__plans .box2 .price__tag .yearly__bill,
+.pricing__plans .box3 .price__tag .yearly__bill {
+  display: none;
+}
+
+.pricing__plans .box1 .price__tag .yearly__bill.active,
+.pricing__plans .box2 .price__tag .yearly__bill.active,
+.pricing__plans .box3 .price__tag .yearly__bill.active {
+  display: block;
+}
+
+.pricing__plans .box1 .price__tag span,
+.pricing__plans .box2 .price__tag span,
+.pricing__plans .box3 .price__tag span {
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin-left: -0.6rem;
+}
+
+.pricing__plans .box1 p,
+.pricing__plans .box2 p,
+.pricing__plans .box3 p {
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: #444444;
+}
+
+.box1 .plan__features,
+.box2 .plan__features,
+.box3 .plan__features {
+  padding: 1rem 0;
+}
+
+.box1 .plan__features span,
+.box2 .plan__features span,
+.box3 .plan__features span {
+  display: flex;
+}
